@@ -2,7 +2,9 @@
 module.exports = {
   // options...
   devServer: {
-    proxy: "http://localhost:81"
+    port: 8081,
+    proxy: "http://localhost:81",
+    disableHostCheck: true
   },
   publicPath: process.env.NODE_ENV === "production" ? "/static/app/" : "/"
 };

@@ -12,6 +12,13 @@ This timeline is split in 3 big target.
 2. Desktop view this database designer.<br/>
 3. Desktop database management and database designer <br/>
 
+## Run simply with Docker
+
+```
+docker-compose up -d
+```
+
+And access [localhost:8080](http://localhost:8080) !
 
 ## Home view
 ![Database designer](/public/images/home/Home_database_designer.png)
